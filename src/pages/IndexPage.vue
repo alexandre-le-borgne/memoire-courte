@@ -5,6 +5,7 @@
       src="~assets/quasar-logo-vertical.svg"
       style="width: 200px; height: 200px"
     >
+    <router-link to="/about">A propos</router-link>
   </q-page>
 </template>
 

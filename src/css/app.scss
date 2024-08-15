@@ -1,1 +1,33 @@
-// app global css in SCSS form
+html {
+  font-family: Montserrat, Roboto, -apple-system, Avenir, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.no-focus {
+  .q-focus-helper {
+    visibility: hidden;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.q-page {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.q-timeline__title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.q-timeline__subtitle {
+  margin-bottom: 0;
+}
+
+.q-timeline__content {
+  font-size: 0.9rem;
+}
